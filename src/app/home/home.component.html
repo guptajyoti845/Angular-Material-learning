@@ -1,0 +1,14 @@
+<div class="courses-panel">
+  <h1>All Courses</h1>
+  <mat-tab-group>
+    <mat-tab label="Beginners">
+
+      <app-course-card-list [courses]="beginnerCourses"></app-course-card-list>
+    </mat-tab>
+
+    <mat-tab label="Advanced">
+      <app-course-card-list [courses]="advancedCourses"></app-course-card-list>
+
+    </mat-tab>
+  </mat-tab-group>
+</div>
